@@ -18,12 +18,12 @@ Output:
 specs/
 └── epics/
    └── EPIC-[EPIC_NUMBER]-[EPIC_NAME]/
+      ├── handoff.json
       ├── epic.md
       ├── tasks/
       │   ├── [TASK-NAME]-[TASK_NUMBER].md
       │   ├── [TASK-NAME]-[TASK_NUMBER].md
       │   └── [TASK-NAME]-[TASK_NUMBER].md
-      ├── handoff.json
       └── worktrees/
           ├── [TASK-NAME]-[TASK_NUMBER]/
           ├── [TASK-NAME]-[TASK_NUMBER]/

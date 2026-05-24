@@ -90,7 +90,7 @@ Artifacts consumed.
 Artifacts produced.
 
 ## Status
-|
+[BACKLOG | IN PROGRESS | COMPLETED | TO EVALUATE | BLOCKED ]
 ## Relevant Specs
 
 Referenced documents.

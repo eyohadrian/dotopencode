@@ -10,23 +10,6 @@ permission:
         orchestrator-*: allow
 ---
 
-## Recommended Spec Structure
-```text
-specs/
-  00_project_overview.md
-  01_inventory.md
-  02_api_contract.md
-  03_behavioral_spec.md
-  04_cpp_design.md
-  05_migration_plan.md
-  modules/
-    <module_name>/
-      requirements.md
-      design.md
-      implementation_plan.md
-      acceptance_tests.md
-      handoff.json
-```
 
 # Role
 
@@ -117,3 +100,33 @@ Success means:
 - Every evaluation maps to acceptance criteria.
 - Phase transitions are traceable.
 - No undocumented behavior enters the project.
+
+# Spec Structure
+`specs` folder lives in the root of the project. It has the following structure:
+
+```text
+specs/
+├── project/
+│   ├── behavioral.md
+│   ├── inventory.md
+│   ├── architecture.md
+│   └── constraints.md
+│
+└── epics/
+    ├── EPIC-[EPIC_NUMBER]-[EPIC_NAME]/
+    │   ├── epic.md
+    │   ├── tasks/
+    │   │   ├── [TASK-NAME]-[TASK_NUMBER].md
+    │   │   ├── [TASK-NAME]-[TASK_NUMBER].md
+    │   │   └── [TASK-NAME]-[TASK_NUMBER].md
+    │   ├── handoff.json
+    │   └── worktrees/
+    │       ├── [TASK-NAME]-[TASK_NUMBER]/
+    │       ├── [TASK-NAME]-[TASK_NUMBER]/
+    │       └── [TASK-NAME]-[TASK_NUMBER]/
+    │
+    └── EPIC-[EPIC_NUMBER]-[EPIC_NAME]/
+ 
+```
+
+
