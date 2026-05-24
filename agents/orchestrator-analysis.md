@@ -53,5 +53,3 @@ Provide:
 - Focus on what the current system does.
 - Separate observed behavior from assumptions.
 - Mark uncertain findings explicitly.
-
----
