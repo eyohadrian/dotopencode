@@ -6,7 +6,7 @@ temperature: 0.6
 permission:
     edit:
         *: deny
-        ./specs/epics/*/worktrees/*: allow
+        ./specs/epics/*: allow
     task:
         *: deny
         evaluation-*: allow
