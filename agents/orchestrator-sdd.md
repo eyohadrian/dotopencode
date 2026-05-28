@@ -109,8 +109,8 @@ specs/
 ├── project/
 │   ├── behavioral.md
 │   ├── inventory.md
-│   ├── architecture.md
-│   └── constraints.md
+│   └── architecture.md
+│                     
 │
 └── epics/
     ├── EPIC-[EPIC_NUMBER]-[EPIC_NAME]/
