@@ -1,6 +1,6 @@
 ---
 description: Orchestrator Agent for Analytics
-mode: agent
+mode: subagent
 model: openai/gpt-5.4
 temperature: 0.6
 permission:

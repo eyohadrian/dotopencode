@@ -1,12 +1,12 @@
 ---
 description: Orchestrator for Evaluate Specs Driven Development
-mode: agent
+mode: subagent
 model: openai/gpt-5.5
 temperature: 0.6
 permission:
     edit:
         *: deny
-        ./specs/*: allow
+        ./specs/epics/*/worktrees/*: allow
     task:
         *: deny
         evaluation-*: allow
