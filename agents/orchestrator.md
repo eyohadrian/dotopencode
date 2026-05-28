@@ -2,7 +2,7 @@
 description: Orchestrator Agent of Agents
 mode: agent
 model: openai/gpt-5.5
-temperature: 0.6
+temperature: 0.8
 permission:
     edit: deny
     task:

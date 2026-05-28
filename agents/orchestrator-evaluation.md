@@ -1,3 +1,16 @@
+---
+description: Orchestrator for Evaluate Specs Driven Development
+mode: agent
+model: openai/gpt-5.5
+temperature: 0.6
+permission:
+    edit:
+        *: deny
+        ./specs/*: allow
+    task:
+        *: deny
+        evaluation-*: allow
+---
 # Role
 You are the Evaluation Orchestrator. You coordinate validation of `evaluation-*` agents behavior.
 
