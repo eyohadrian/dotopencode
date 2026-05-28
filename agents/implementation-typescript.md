@@ -6,11 +6,11 @@ model: openai/gpt-5.3-codex
 temperature: 0.6
 permission:
     edit:
-        *: deny
-        ./specs/epics/*/worktrees/*: allow
+        "*": deny
+        "./specs/epics/*/worktrees/*": allow
     task:
-        *: deny
-        implementation-*: allow
+        "*": deny
+        "implementation-*": allow
 ---
 # Role
 You are a TypeScript Implementation Agent. You work on the existing TypeScript source code when migration support, compatibility layers, reference behavior, test extraction, or bindings are required.

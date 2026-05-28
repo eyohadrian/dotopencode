@@ -5,15 +5,15 @@ model: openai/gpt-5.5
 temperature: 0.6
 permission:
     edit:
-        *: deny
-        ./specs/*: allow
+        "*": deny
+        "./specs/*": allow
     task:
-        orchestrator-*: deny
-        *: ask
+        "orchestrator-*": deny
+        "*": ask
     skill:
-        *: deny
-        design-*: allow
-        orchestrator-*: allow
+        "*": deny
+        "design-*": allow
+        "orchestrator-*": allow
 ---
 
 # Role

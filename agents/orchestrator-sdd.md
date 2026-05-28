@@ -1,18 +1,19 @@
 ---
 description: Orchestrator for Specs Driven Development
-mode: agent
+mode: primary
 model: openai/gpt-5.5
 temperature: 0.6
 permission:
-    edit: deny
-        ./specs/*: allow
+    edit: 
+        "*": deny
+        "./specs/*": allow
     task:
-        *: ask
-        orchestrator-*: allow
+        "*": ask
+        "orchestrator-*": allow
     skill:
-        *: deny
-        sdd-*: allow
-        orchestrator-*: allow
+        "*": deny
+        "sdd-*": allow
+        "orchestrator-*": allow
 ---
 
 

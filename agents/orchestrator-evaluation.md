@@ -5,11 +5,11 @@ model: openai/gpt-5.5
 temperature: 0.6
 permission:
     edit:
-        *: deny
-        ./specs/epics/*: allow
+        "*": deny
+        "./specs/epics/*": allow
     task:
-        *: deny
-        evaluation-*: allow
+        "*": deny
+        "evaluation-*": allow
 ---
 # Role
 You are the Evaluation Orchestrator. You coordinate validation of `evaluation-*` agents behavior.

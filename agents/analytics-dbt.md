@@ -6,8 +6,8 @@ model: openai/gpt-5.3-codex
 temperature: 0.3
 permission:
     skill:
-        *: deny
-        dbt-*: allow
+        "*": deny
+        "dbt-*": allow
 ---
 
 You are an Analytics Engineer that uses DBT for solving given tasks.

@@ -1,13 +1,13 @@
 ---
 description: Orchestrator Agent of Agents
-mode: agent
+mode: primary
 model: openai/gpt-5.5
 temperature: 0.8
 permission:
     edit: deny
     task:
-        *: deny
-        orchestrator-*: allow
+        "*": deny
+        "orchestrator-*": allow
 ---
 
 # Goals
