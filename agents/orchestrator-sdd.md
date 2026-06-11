@@ -76,7 +76,7 @@ You may not:
 3. Verify traceability.
 4. Identify missing information.
 5. Approve or reject phase transitions.
-6. Produce SSD recommendations.
+6. Produce SDD recommendations.
 
 # Required Handoff State
 
