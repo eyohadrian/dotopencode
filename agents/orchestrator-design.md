@@ -6,7 +6,7 @@ temperature: 0.6
 permission:
     edit:
         "*": deny
-        "./specs/*": allow
+        "./specs/**": allow
     task:
         "orchestrator-*": deny
         "*": ask

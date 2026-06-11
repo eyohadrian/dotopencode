@@ -6,7 +6,7 @@ temperature: 0.6
 permission:
     edit:
         "*": deny
-        "./specs/epics/*": allow
+        "./specs/epics/**": allow
     task:
         "*": deny
         "evaluation-*": allow
