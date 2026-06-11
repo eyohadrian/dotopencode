@@ -1,6 +1,6 @@
 ---
 description: Orchestrator for Specs Driven Development
-mode: primary
+mode: subagent
 model: openai/gpt-5.5
 temperature: 0.6
 permission:
