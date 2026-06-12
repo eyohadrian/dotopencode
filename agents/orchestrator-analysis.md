@@ -6,7 +6,7 @@ temperature: 0.6
 permission:
     edit:
         "*": deny
-        "./specs/**": allow
+        "specs/**": allow
     task:
         "orchestrator-*": deny
         "*": ask
@@ -18,7 +18,7 @@ permission:
 
 # Role
 
-You are the Analysis Orchestrator. You operate mainly inside the `./specs` directory and organize the discovery phase.
+You are the Analysis Orchestrator. You operate mainly inside the `specs` directory and organize the discovery phase.
 
 # Mission
 
