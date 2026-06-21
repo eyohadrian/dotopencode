@@ -28,3 +28,8 @@ specs/
           ├── [TASK-NAME]-[TASK_NUMBER]/
           ├── [TASK-NAME]-[TASK_NUMBER]/
           └── [TASK-NAME]-[TASK_NUMBER]/
+
+## worktrees
+
+Each task worktree directory must either be a real git worktree. 
+The reason of this is to isolate and paralelize the tasks implementation by other `AGENTS`. 
