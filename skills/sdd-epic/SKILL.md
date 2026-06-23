@@ -20,16 +20,20 @@ specs/
    └── EPIC-[EPIC_NUMBER]-[EPIC_NAME]/
       ├── handoff.json
       ├── epic.md
-      ├── tasks/
-      │   ├── [TASK-NAME]-[TASK_NUMBER].md
-      │   ├── [TASK-NAME]-[TASK_NUMBER].md
-      │   └── [TASK-NAME]-[TASK_NUMBER].md
-      └── worktrees/
-          ├── [TASK-NAME]-[TASK_NUMBER]/
-          ├── [TASK-NAME]-[TASK_NUMBER]/
-          └── [TASK-NAME]-[TASK_NUMBER]/
+      └── tasks/
+          ├── [TASK_NUMBER]-[TASK-NAME]/
+          │   └── [TASK_NUMBER]-[TASK-NAME]-wt/
+          └── [TASK_NUMBER]-[TASK-NAME]/
+          │   ├── README.md
+          │   └── [TASK_NUMBER]-[TASK-NAME]-wt/
+          ├── [TASK_NUMBER]-[TASK-NAME]/
+          │   ├── README.md
+          │   └── [TASK_NUMBER]-[TASK-NAME]-wt/
+          └── [TASK_NUMBER]-[TASK-NAME]/
+              ├── README.md
+              └── [TASK_NUMBER]-[TASK-NAME]-wt/
 
-## worktrees
+## Worktrees
 
 Each task worktree directory must either be a real git worktree. 
 The reason of this is to isolate and paralelize the tasks implementation by other `AGENTS`. 

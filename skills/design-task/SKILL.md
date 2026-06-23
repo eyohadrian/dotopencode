@@ -22,7 +22,10 @@ specs/
 └── epics/
     └── EPIC-[EPIC_NUMBER]-[EPIC_NAME]/
        └── tasks/
-          ├── [TASK-NAME]-[TASK_NUMBER].md
-          ├── [TASK-NAME]-[TASK_NUMBER].md
-          └── [TASK-NAME]-[TASK_NUMBER].md
+           ├── [TASK_NUMBER]-[TASK-NAME]/
+           │   └── README.md
+           ├── [TASK_NUMBER]-[TASK-NAME]/
+           │   └── README.md
+           └── [TASK_NUMBER]-[TASK-NAME]/
+               └── README.md
 ```

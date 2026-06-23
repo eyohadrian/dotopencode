@@ -122,14 +122,16 @@ specs/
     ├── EPIC-[EPIC_NUMBER]-[EPIC_NAME]/
     │   ├── epic.md
     │   ├── tasks/
-    │   │   ├── [TASK-NAME]-[TASK_NUMBER].md
-    │   │   ├── [TASK-NAME]-[TASK_NUMBER].md
-    │   │   └── [TASK-NAME]-[TASK_NUMBER].md
+    │   │   ├── [TASK_NUMBER]-[TASK-NAME]/
+    │   │   │   ├── README.md
+    │   │   │   └── [TASK_NUMBER]-[TASK-NAME]-wt/
+    │   │   ├── [TASK_NUMBER]-[TASK-NAME]/
+    │   │   │   ├── README.md
+    │   │   │   └── [TASK_NUMBER]-[TASK-NAME]-wt/
+    │   │   └── [TASK_NUMBER]-[TASK-NAME]/
+    │   │       ├── README.md
+    │   │       └── [TASK_NUMBER]-[TASK-NAME]-wt/
     │   ├── handoff.json
-    │   └── worktrees/
-    │       ├── [TASK-NAME]-[TASK_NUMBER]/
-    │       ├── [TASK-NAME]-[TASK_NUMBER]/
-    │       └── [TASK-NAME]-[TASK_NUMBER]/
     │
     └── EPIC-[EPIC_NUMBER]-[EPIC_NAME]/
  
