@@ -1,12 +1,13 @@
 ---
 description: Orchestrator Academy of Agent of Agents
 mode: primary
-model: openai/gpt-5.5
+model: openai/gpt-5.6-sol
 temperature: 0.8
 permission:
-    edit: deny
+    edit: 
+        "*": allow
     bash:
-        "*": deny
+        "*": allow
     task:
         "*": deny
         "academy/academy-*": allow
